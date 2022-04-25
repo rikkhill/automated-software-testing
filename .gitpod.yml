@@ -1,2 +1,5 @@
 tasks:
-  - init: pip install pytest pytest-benchmark pytest-subtests pytest-cov
+  - name: Install dependencies
+    init: pip install pytest pytest-benchmark pytest-subtests pytest-cov
+  - name: Clear screen
+    init: clear

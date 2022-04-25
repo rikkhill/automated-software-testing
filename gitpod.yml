@@ -1,0 +1,2 @@
+tasks:
+  - init: pip install pytest pytest-benchmark pytest-subtest pytest-cov

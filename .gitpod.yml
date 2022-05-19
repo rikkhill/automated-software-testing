@@ -1,5 +1,5 @@
 tasks:
   - name: Install dependencies
     init: pip install pytest pytest-benchmark pytest-subtests pytest-cov
-  - name: branding
-    init: cat artifacts/branding
+  - name: Clear screen
+    init: clear

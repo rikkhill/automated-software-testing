@@ -15,3 +15,4 @@ class Dog:
 
     def eat(self, food):
         self.hunger -= food.eat()
+        self.hunger = self.hunger if self.hunger >= 0 else 0

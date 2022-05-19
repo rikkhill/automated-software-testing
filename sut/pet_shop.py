@@ -19,5 +19,10 @@ class Ball(Toy):
     fun = 10
 
 
-class Bone(Toy):
+class Bone(Toy, Food):
     fun = 4
+    nutrition = 2
+
+
+class Biscuit(Food):
+    nutrition = 4

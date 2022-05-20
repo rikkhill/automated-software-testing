@@ -3,3 +3,6 @@ tasks:
     init: pip install pytest pytest-benchmark pytest-subtests pytest-cov
   - name: Clear screen
     init: clear
+vscode:
+  extensions:
+    - ms-python.python
